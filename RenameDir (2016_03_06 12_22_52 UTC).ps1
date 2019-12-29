@@ -1,4 +1,4 @@
-﻿# периименование папок в правильный вид
+﻿# переименование папок в правильный вид для Play Memories
 $p = "E:\imported video\"
 cd $p
 $d = dir -Directory -Path $p | ?{$_.name.Length -gt 8}
